@@ -1,0 +1,37 @@
+/* SCREEN **************************************************/ 
+
+/* Sticky Footer Settings
+---------------------------------------------------------- */
+html, body {
+    height: 100%;
+}
+#sticky_wrapper {
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+    background-color: #fff;
+}
+#sticky_footer, #sticky_push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+
+/* Header
+---------------------------------------------------------- */
+#header {
+    background-color: #fee4c7;
+}
+
+/* Content
+---------------------------------------------------------- */
+#content {
+    background-color: #e6e6e6;
+}
+
+/* Footer
+---------------------------------------------------------- */
+#sticky_footer {
+    position: relative;
+    background-color: #b1cae8;
+}
